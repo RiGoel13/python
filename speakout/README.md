@@ -1,7 +1,7 @@
-#Speak Out – Python Text-to-Speech using Windows SAPI
+#Speak Out – Python Text-to-Speech using Windows SAPI#
 This is a basic voice assistant created with Python and Microsoft's Speech API (SAPI) on Windows. It lets users input text and listen to it read out.
 ---
-##Features
+##Features##
 Utilizes pywin32 in order to interface with the Windows pre-installed TTS engine
 Reads out any text you input
 Graciously powers off with a verbal "Powering off" message
