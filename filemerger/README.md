@@ -9,13 +9,15 @@ This Python script allows you to merge multiple PDF files into one, providing an
 - Output the merged PDF with a custom name.
 
 
+
+
+## Installation
 ### Install Dependencies
+
 
 ```bash
 pip install PyPDF2
 ```
-
-## Installation
 
 1. Save the script as `pdf_merger.py`.
 
