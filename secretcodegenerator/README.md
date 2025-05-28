@@ -5,7 +5,7 @@ This Python script allows you to encode and decode messages using **Morse code**
 
 ## Features
 
-- **Morse Code Encoding and Decoding**: Convert text to Morse code and vice versa.
+- **Morse Code Encoding and Decoding**: It converts text to Morse code and vice versa.
 - **Custom Random String Manipulation**: Alter words by randomly changing their letters for obfuscation.
 - **Easy to use**: Input a message, choose your operation, and let the script handle the rest.
 
