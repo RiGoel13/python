@@ -16,22 +16,6 @@ This is a basic **Text-to-Speech (TTS)** Python program using the built-in **Mic
 - Python installed
 - `pywin32` library
 
-##  Installation
-
-1. Install `pywin32` if it's not installed:
-
-```bash
-pip install pywin32
-```
-
-2. Save the script as `speakout.py`.
-
-##  How to Run
-
-```bash
-python speakout.py
-```
-
 ##  How It Works
 
 - On startup, the program says "Power on!! you can type now".
