@@ -11,7 +11,7 @@ This Python script retrieves real-time weather information for a specified city 
 
 ## Requirements
 
-- Python 3.x
+- Python 
 - `requests` library to make API calls.
 - `win32com.client` library to provide text-to-speech support.
 - A **WeatherAPI** key (obtain one by signing up on [WeatherAPI](https://www.weatherapi.com/)).
