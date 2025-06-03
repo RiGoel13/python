@@ -19,7 +19,7 @@ python morse_random.py
 ## How It Works
 
 1. The script prompts for a message input.
-2. You can choose to:
+2. You can choose to use following points:
     - Encode or decode a message using **Morse code**.
     - Encode or decode using a **random string manipulation** technique.
 3. Based on your choices, it will either:
