@@ -16,6 +16,7 @@ This is a basic **Text-to-Speech (TTS)** Python program using the built-in **Mic
 - Python installed
 - `pywin32` library
 
+
 ##  How It Works
 
 - On startup, the program says "Power on!! you can type now".
