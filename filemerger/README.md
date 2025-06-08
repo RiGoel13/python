@@ -8,8 +8,6 @@ This Python script allows you to merge multiple PDF files into one, providing an
 - Output the merged PDF with a custom name.
 
 
-
-
 ## Installation
 ### Install Dependencies
 
