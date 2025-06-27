@@ -1,5 +1,4 @@
 
-
 #  Weather Fetcher with Voice Output
 
 This Python script retrieves real-time weather information for a specified city from the **WeatherAPI** and speaks out the temperature in Celsius and Fahrenheit using text-to-speech functionality.
