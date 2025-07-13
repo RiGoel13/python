@@ -1,4 +1,3 @@
-
 import random
 import string
 MORSE_CODE_DICT = {
