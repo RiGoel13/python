@@ -2,6 +2,7 @@ import requests as req
 import win32com.client as win
 import json
 
+
 city = input("Enter city: ")
 url = f"http://api.weatherapi.com/v1/current.json?key=eb16634fa28347c69fa143944241612&q={city}"
 r = req.get(url)
