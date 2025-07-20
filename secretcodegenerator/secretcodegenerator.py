@@ -1,4 +1,5 @@
 import random
+
 import string
 MORSE_CODE_DICT = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.',
