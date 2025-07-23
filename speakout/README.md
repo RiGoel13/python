@@ -1,5 +1,4 @@
 
-
 # Speak Out - Text to Speech in Python
 
 This is a basic **Text-to-Speech (TTS)** Python program using the built-in **Microsoft Speech API (SAPI)** via the `win32com.client` module.
