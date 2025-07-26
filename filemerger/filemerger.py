@@ -1,26 +1,20 @@
-import PyPDF2 as pd
-import streamlit as st              # Streamlit UI framework               # PDF library to read/merge PDF files
-import tempfile                    # For writing temporary files safely
+import streamlit as st
+import PyPDF2
+import tempfile
 
-# Ask user how many files to merge
-n = int(input("Enter number of PDF files to merge: "))
+st.set_page_config(page_title="PDF Reader", layout="centered")
+st.title("📄 Simple PDF Reader App")
 
-# Take file paths from user
-pdffiles = []
-for i in range(n):
-    path = input(f"Enter path for PDF file {i+1}: ")
-    pdffiles.append(path)
+uploaded_file = st.file_uploader("Upload a PDF file", type=["pdf"])
 
-# Merge the files
-merger = pd.PdfMerger()
-for filename in pdffiles:
-    pdfile = open(filename, 'rb')
-    pdfreader = pd.PdfReader(pdfile)
-    merger.append(pdfreader)
-    pdfile.close()
+if uploaded_file is not None:
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
+        tmp_file.write(uploaded_file.read())
+        tmp_file_path = tmp_file.name
 
-# Output merged PDF
-output = input("Enter output file name (e.g., merged.pdf): ")
-merger.write(output)
-merger.close()
-print("")
+    reader = PyPDF2.PdfReader(tmp_file_path)
+    st.success(f"PDF has {len(reader.pages)} pages.")
+
+    for i, page in enumerate(reader.pages):
+        with st.expander(f"Page {i+1}"):
+            st.write(page.extract_text())
