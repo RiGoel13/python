@@ -1,4 +1,6 @@
 import PyPDF2 as pd
+import streamlit as st              # Streamlit UI framework               # PDF library to read/merge PDF files
+import tempfile                    # For writing temporary files safely
 
 # Ask user how many files to merge
 n = int(input("Enter number of PDF files to merge: "))
