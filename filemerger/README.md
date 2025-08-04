@@ -1,3 +1,4 @@
+
 # PDF Merger
 
 This Python script allows you to merge multiple PDF files into one, providing an easy way to combine documents.
