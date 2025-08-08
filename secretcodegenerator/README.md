@@ -1,4 +1,3 @@
-
 # Morse Code Encoder/Decoder with Random String Manipulation
 
 This Python script allows you to encode and decode messages using **Morse code**. It also has the ability to encode/modify messages by randomly manipulating letters in a custom way.
